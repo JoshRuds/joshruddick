@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Homepage</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font (lighter style) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+        }
+
+        h1, h2, h3 {
+            color: red;
+            font-weight: 400;
+        }
+
+        .oval-btn {
+            background-color: #4da6ff; /* lighter blue */
+            color: white;
+            border-radius: 50px;
+            padding: 10px 25px;
+            border: none;
+        }
+
+        .oval-btn:hover {
+            background-color: #3399ff;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .hero-img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="container section">
+        <div class="row align-items-center">
+            
+            <!-- Left Content -->
+            <div class="col-md-6">
+                <h1>Your Name</h1>
+                <p class="mt-3">
+                    This is a short introduction about yourself. You can edit this text to describe who you are,
+                    what you do, and what makes you unique.
+                </p>
+
+                <div class="d-flex gap-3 mt-4">
+                    <button class="oval-btn">View Work</button>
+                    <button class="oval-btn">Contact Me</button>
+                </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/500x350" alt="Your Image" class="hero-img">
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- About Section -->
+    <div class="container section">
+        <h2>About Me</h2>
+        <p>
+            Write about yourself here. Include your background, interests, and goals.
+        </p>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="container section">
+        <h2>My Experience</h2>
+        <p>
+            Add details about your work experience, projects, or achievements here.
+        </p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container section">
+        <h2>Contact</h2>
+        <p>
+            Email: your.email@example.com <br>
+            LinkedIn: your-linkedin-profile <br>
+            Phone: +1234567890
+        </p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
